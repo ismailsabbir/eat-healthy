@@ -2,4 +2,180 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main-part {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.left-site {
+  margin-left: 40px;
+  width: 50%;
+}
+.left-site h1 {
+  font-size: 3rem;
+  font-weight: 900px;
+  font-weight: bold;
+}
+.left-site p {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: gray;
+  margin-bottom: 30px;
+}
+.left-site a {
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 1px solid orange;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  border-radius: 10%;
+  font-size: 1rem;
+}
+.left-site span {
+  color: orange;
+}
+.right-site {
+  width: 50%;
+}
+.right-site img {
+  text-align: center;
+}
+.secound-part {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(/images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.secound-part .left-site {
+  margin-top: 20px;
+  margin-left: 10%;
+  width: 40%;
+}
+.secound-part .left-site img {
+  padding-top: 40px;
+  height: 700px;
+  width: 450px;
+}
+.secound-part .right-site {
+  margin-top: 20px;
+  margin-right: 10%;
+  width: 40%;
+}
+.secound-part .right-site h1 {
+  font-weight: 900px;
+  font-weight: bold;
+  color: gray;
+  margin-bottom: 20px;
+}
+.secound-part .right-site p {
+  color: gray;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.secound-part .right-site a {
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 1px solid orange;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  border-radius: 10%;
+  font-size: 1rem;
+}
+.third-part {
+  width: 100%;
+  height: auto;
+}
+.head {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.head h1 {
+  margin-bottom: 40px;
+  color: rgb(69, 58, 58);
+  font-size: 2rem;
+}
+.head h1,
+p {
+  text-align: center;
+}
+.head p {
+  font-size: 1.5rem;
+  color: rgb(28, 22, 22);
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-card {
+  padding: 20px;
+  border: 1px solid gray;
+  width: 40%;
+  margin: 20px;
+  border-radius: 8%;
+  box-shadow: 10px 8px 10px gray, -10px -8px 10px rgb(237, 232, 232);
+}
+.right-card img {
+  width: 560px;
+  height: 350px;
+}
+.card-body {
+  margin-top: 20px;
+}
+.card-body h1 {
+  margin-bottom: 10px;
+}
+.card-body p {
+  text-align: left;
+}
+.fourth-part {
+  margin-top: 50px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number {
+  margin: 20px;
+  background-color: white;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 20px;
+  box-shadow: 10px 8px 10px gray, -10px -8px 10px rgb(237, 232, 232);
+}
+.first-numb {
+  width: 25%;
+  text-align: center;
+
+  border-radius: 20px;
+  box-shadow: 10px 8px 10px gray, -10px -8px 10px rgb(237, 232, 232);
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer h1 span {
+  color: orange;
 }
